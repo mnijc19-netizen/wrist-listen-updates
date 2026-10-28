@@ -1,0 +1,10 @@
+{
+  "package": "cn.personal.wristlisten",
+  "versionCode": 3,
+  "versionName": "0.3.0",
+  "minSdk": 21,
+  "apkUrl": "https://github.com/mnijc19-netizen/wrist-listen-updates/releases/download/v0.3.0/WristListen-0.3.0-M60T.apk",
+  "bytes": 66157,
+  "sha256": "e55e95963ed14866c4a101f70979807bc3f6c3a8c4286af28691d7d9c19aa45b",
+  "notes": "新增 LibriVox、Internet Archive、BBC 和 NPR；支持喜马拉雅公开播客链接导入。改善旧安卓 HTTPS 兼容，增加慢连接重试。保留软件内更新与离线收听。"
+}
