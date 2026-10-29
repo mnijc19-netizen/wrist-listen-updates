@@ -1,10 +1,10 @@
 {
   "package": "cn.personal.wristlisten",
-  "versionCode": 6,
-  "versionName": "0.4.2",
+  "versionCode": 7,
+  "versionName": "0.4.3",
   "minSdk": 21,
-  "apkUrl": "https://github.com/mnijc19-netizen/wrist-listen-updates/releases/download/v0.4.2/WristListen-0.4.2-M60T.apk",
+  "apkUrl": "https://github.com/mnijc19-netizen/wrist-listen-updates/releases/download/v0.4.3/WristListen-0.4.3-M60T.apk",
   "bytes": 74349,
-  "sha256": "d3f9e7b28903a6a27b447d8cde47580e5ecbfa9b96f9f476b59ca639dad7c69d",
-  "notes": "新增设置→本机调试诊断：读取实际安卓版本、固件、开发者模式和USB/ADB状态，检查可启动的系统入口。信息仅本机显示、可复制，不上传、不自动修改设置。"
+  "sha256": "1392aea0f2f6bbc1f71ef63335bc21224befd2740eb2ba56ca11674c06cb7f6c",
+  "notes": "新增安卓9高级工程服务身份检查：主动复制命令到工程模式执行，尝试临时启动厂商服务，仅发送id并检查身份，随后尝试还原启动开关并报告结果。不会自动开启网络调试。"
 }
