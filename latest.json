@@ -1,10 +1,10 @@
 {
   "package": "cn.personal.wristlisten",
-  "versionCode": 5,
-  "versionName": "0.4.1",
+  "versionCode": 6,
+  "versionName": "0.4.2",
   "minSdk": 21,
-  "apkUrl": "https://github.com/mnijc19-netizen/wrist-listen-updates/releases/download/v0.4.1/WristListen-0.4.1-M60T.apk",
-  "bytes": 66157,
-  "sha256": "040b67384021646ec61193c86fd7d969ca453df6d92894cd8cff1cd354bca03c",
-  "notes": "修复安卓5/6更新安装入口，使用系统安装会话并保留确认。包含下载自动刷新、后台停止界面轮询、大RSS内存与地址解析优化、播放器返回列表和删除失败保留记录。旧安卓上若旧版无法打开安装，请先手动覆盖安装本版一次。"
+  "apkUrl": "https://github.com/mnijc19-netizen/wrist-listen-updates/releases/download/v0.4.2/WristListen-0.4.2-M60T.apk",
+  "bytes": 74349,
+  "sha256": "d3f9e7b28903a6a27b447d8cde47580e5ecbfa9b96f9f476b59ca639dad7c69d",
+  "notes": "新增设置→本机调试诊断：读取实际安卓版本、固件、开发者模式和USB/ADB状态，检查可启动的系统入口。信息仅本机显示、可复制，不上传、不自动修改设置。"
 }
