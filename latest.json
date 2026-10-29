@@ -1,10 +1,10 @@
 {
   "package": "cn.personal.wristlisten",
-  "versionCode": 7,
-  "versionName": "0.4.3",
+  "versionCode": 8,
+  "versionName": "0.4.4",
   "minSdk": 21,
-  "apkUrl": "https://github.com/mnijc19-netizen/wrist-listen-updates/releases/download/v0.4.3/WristListen-0.4.3-M60T.apk",
-  "bytes": 74349,
-  "sha256": "1392aea0f2f6bbc1f71ef63335bc21224befd2740eb2ba56ca11674c06cb7f6c",
-  "notes": "新增安卓9高级工程服务身份检查：主动复制命令到工程模式执行，尝试临时启动厂商服务，仅发送id并检查身份，随后尝试还原启动开关并报告结果。不会自动开启网络调试。"
+  "apkUrl": "https://raw.githubusercontent.com/mnijc19-netizen/wrist-listen-updates/main/apks/WristListen-0.4.4-M60T.apk",
+  "bytes": 78445,
+  "sha256": "9f926a355c527d47154ae494a79a901b127abcd8e567420bf642cf6149d58af0",
+  "notes": "修复安卓9工程服务保持连接时Try again丢失响应；增加固定的网络ADB开启命令，仅在Root身份满足时尝试临时5555端口与ADB重启，输出状态并清理工程服务。安装包改为与更新信息同域直连，保留原签名与校验。"
 }
