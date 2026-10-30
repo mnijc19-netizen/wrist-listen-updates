@@ -1,10 +1,10 @@
 {
   "package": "cn.personal.wristlisten",
-  "versionCode": 8,
-  "versionName": "0.4.4",
+  "versionCode": 9,
+  "versionName": "0.4.5",
   "minSdk": 21,
-  "apkUrl": "https://raw.githubusercontent.com/mnijc19-netizen/wrist-listen-updates/main/apks/WristListen-0.4.4-M60T.apk",
+  "apkUrl": "https://raw.githubusercontent.com/mnijc19-netizen/wrist-listen-updates/main/apks/WristListen-0.4.5-M60T.apk",
   "bytes": 78445,
-  "sha256": "9f926a355c527d47154ae494a79a901b127abcd8e567420bf642cf6149d58af0",
-  "notes": "修复安卓9工程服务保持连接时Try again丢失响应；增加固定的网络ADB开启命令，仅在Root身份满足时尝试临时5555端口与ADB重启，输出状态并清理工程服务。安装包改为与更新信息同域直连，保留原签名与校验。"
+  "sha256": "3719156a610b3e48450f315ce6f4c96e2bae88ec48b8cf11ba3d1d7d59a0cee9",
+  "notes": "新增Root权限只读诊断，检查SELinux、进程权限、ADB端口和相关策略日志；端口设置失败时明确显示网络ADB未确认开启。保留原签名及同域直连更新。"
 }
