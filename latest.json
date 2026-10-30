@@ -1,10 +1,10 @@
 {
   "package": "cn.personal.wristlisten",
-  "versionCode": 12,
-  "versionName": "0.5.0",
+  "versionCode": 14,
+  "versionName": "0.5.2",
   "minSdk": 21,
-  "apkUrl": "https://raw.githubusercontent.com/mnijc19-netizen/wrist-listen-updates/main/apks/WristListen-0.5.0-M60T.apk",
+  "apkUrl": "https://raw.githubusercontent.com/mnijc19-netizen/wrist-listen-updates/main/apks/WristListen-0.5.2-M60T.apk",
   "bytes": 90733,
-  "sha256": "3b6c2b6a120eb8ad3101d147572dfee16c5f23adff27674623e95e70781fb402",
-  "notes": "新增B站搜索、分P、纯音频播放及Wi-Fi下载；YouTube链接交给NewPipe后台播放器；支持本地音频导入。RSS历史上限由200增至1000集，分批显示。扩展中美区播客搜索及中国区热门发现；修复电台播放列表、网页误识别和部分网络错误提示。降低进度写入频率，修正音频焦点失败时的Wi-Fi锁释放，并新增电池状态页。海外来源仍受当前网络限制。"
+  "sha256": "c15b6725adab4c0737f9bb7d237715eb60ad3cfbb76e87bece6fac129a59b892",
+  "notes": "在0.5.0的B站纯音频、播客扩展与本地导入基础上，改善小屏列表，增加后台电池限制入口、省电设置快捷入口及常用音频应用直达。实测省电模式下自动息屏播放持续；原厂表盘会主动清理后台，请播放时直接息屏。YouTube联网与第三方软件登录播放仍待验证。"
 }
