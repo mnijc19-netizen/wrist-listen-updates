@@ -1,8 +1,8 @@
 # 腕听更新
 
-最新版本：0.5.0（Android 5.0+，针对 M60T / Android 9 优化）
+最新版本：0.5.2（Android 5.0+，针对 M60T / Android 9 优化）
 
-[下载 APK](https://raw.githubusercontent.com/mnijc19-netizen/wrist-listen-updates/main/apks/WristListen-0.5.0-M60T.apk) · [版本说明](https://github.com/mnijc19-netizen/wrist-listen-updates/releases/tag/v0.5.0)
+[下载 APK](https://raw.githubusercontent.com/mnijc19-netizen/wrist-listen-updates/main/apks/WristListen-0.5.2-M60T.apk) · [版本说明](https://github.com/mnijc19-netizen/wrist-listen-updates/releases/tag/v0.5.2)
 
 支持公开播客 RSS、网络电台、B站公开视频的独立音轨和本地音频导入。YouTube 链接交给外部 [NewPipe](https://newpipe.net/)，当前网络需要能访问 YouTube。部分海外来源和直播流可能不可用。
 
