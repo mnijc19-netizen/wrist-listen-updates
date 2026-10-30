@@ -1,10 +1,10 @@
-# 腕听 0.4.5
+# 腕听 0.4.6
 
 面向 M60T / XS watch 这类完整安卓手表的播客、网络电台与有声书客户端。中文界面、大按钮、深色背景，最低 Android 5.0（API 21），不依赖 Google 服务或 Wear OS。已经在安卓 6 / 9 模拟器运行验证；M60T 底层 Android 9 已由实机诊断确认；音频硬件、蓝牙、功耗与高级工程服务仍需实机验证。
 
 ## 下载和升级
 
-- [下载 0.4.5 APK](https://raw.githubusercontent.com/mnijc19-netizen/wrist-listen-updates/main/apks/WristListen-0.4.5-M60T.apk)
+- [下载 0.4.6 APK](https://raw.githubusercontent.com/mnijc19-netizen/wrist-listen-updates/main/apks/WristListen-0.4.6-M60T.apk)
 - [公开更新仓库](https://github.com/mnijc19-netizen/wrist-listen-updates)
 - 固定更新源：`https://raw.githubusercontent.com/mnijc19-netizen/wrist-listen-updates/main/latest.json`
 
@@ -38,7 +38,7 @@
 
 安卓 9 诊断页可复制高级工程服务检查命令，粘贴到工程模式执行。工具尝试临时启动服务，仅发送固定的 `id` 检查身份，随后尝试还原开关并显示清理结果。普通应用不会自动执行此工具，不自动开启网络调试。实机成功与否以输出为准。
 
-0.4.5 新增“复制 Root 权限诊断命令”，通过工程服务只读检查 SELinux、进程权限、ADB 端口与相关策略日志。网络开启命令明确区分端口写入失败与配置已报告，电脑实际连接仍需验证。更新后请重新复制命令。
+0.4.6 新增“复制网络 ADB 备用开启命令”：尝试 Android 9 的另一端口属性，保存原值并确认能写回后才设置 5555、请求 ADB 重启；3 秒后恢复原值并读回核对，再检查本机 5555 端口。此模式会临时写入端口属性；成功时监听可能保持到 ADB 下次重启。查看 APPLY、RESTORE、LOCAL_5555，电脑实际连接仍需验证。更新后请重新复制命令。
 
 网络连接和音频跳转解析在后台执行，支持取消；慢连接有一次自动重试。退到后台后停止界面轮询；界面内容未变时不反复更新文字。0.4.0 减少大 RSS 的临时内存复制，支持继承 `xml:base` 和嵌套 Media RSS 音频地址；更新下载使用独立临时文件，避免页面重建时互相干扰。
 
