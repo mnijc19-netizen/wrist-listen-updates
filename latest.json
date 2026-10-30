@@ -1,10 +1,10 @@
 {
   "package": "cn.personal.wristlisten",
-  "versionCode": 9,
-  "versionName": "0.4.5",
+  "versionCode": 10,
+  "versionName": "0.4.6",
   "minSdk": 21,
-  "apkUrl": "https://raw.githubusercontent.com/mnijc19-netizen/wrist-listen-updates/main/apks/WristListen-0.4.5-M60T.apk",
+  "apkUrl": "https://raw.githubusercontent.com/mnijc19-netizen/wrist-listen-updates/main/apks/WristListen-0.4.6-M60T.apk",
   "bytes": 78445,
-  "sha256": "3719156a610b3e48450f315ce6f4c96e2bae88ec48b8cf11ba3d1d7d59a0cee9",
-  "notes": "新增Root权限只读诊断，检查SELinux、进程权限、ADB端口和相关策略日志；端口设置失败时明确显示网络ADB未确认开启。保留原签名及同域直连更新。"
+  "sha256": "272331b31d6d4dcf3d50fece8499e469bc46a525a535bae2a357478fb2f631a7",
+  "notes": "新增网络ADB备用开启：尝试Android9备用端口属性，检查原值可写回后才设置5555和请求ADB重启；3秒后恢复原值并核对，再报告本机端口状态。35项协议、权限及恢复检查通过，M60T连接仍需实测。"
 }
