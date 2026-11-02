@@ -1,13 +1,13 @@
 {
   "package": "cn.personal.wristai",
-  "versionCode": 3,
-  "versionName": "0.3.0",
+  "versionCode": 4,
+  "versionName": "0.4.0",
   "minSdk": 26,
-  "apkUrl": "https://mnijc19-netizen.github.io/wrist-listen-updates/wrist-ai/apks/WristAsk-0.3.0-M60T.apk",
+  "apkUrl": "https://mnijc19-netizen.github.io/wrist-listen-updates/wrist-ai/apks/WristAsk-0.4.0-M60T.apk",
   "apkFallbackUrls": [
-    "https://raw.githubusercontent.com/mnijc19-netizen/wrist-listen-updates/main/wrist-ai/apks/WristAsk-0.3.0-M60T.apk"
+    "https://raw.githubusercontent.com/mnijc19-netizen/wrist-listen-updates/main/wrist-ai/apks/WristAsk-0.4.0-M60T.apk"
   ],
-  "bytes": 82388,
-  "sha256": "3c7e87e5f3e0f398dee78dcc501c1cc4924b71032af05bd0547f0573418c9268",
-  "notes": "回答改为纯文字，移除自动朗读与语音生成流程，旧设置也不会触发语音合成。保留语音输入，优化录音快速停止、重录与异常清理。连接失败或回答中断时保留问题和文字，可手动重试原模型或修改问题；不自动重复收费请求。优化输入草稿、小屏键盘与模型选择。"
+  "bytes": 86484,
+  "sha256": "ed70fae93f41e1a6c47cf3cddb4296d4e1af4dd76efaf993d8ee0a284adb8920",
+  "notes": "重排手表主页，压缩模型入口并扩大正文区，固定语音与打字按钮，统一黑石墨与冰蓝样式。取消默认100字短答，增加标准/详细/简短三档与匹配模型能力的思考选择；不自动换模型。显示等待首字和正文生成耗时，暂停、完成后停止前台计时。修复模型搜索键盘退出和录音暂停后的按钮恢复，保留纯文字回答与手动重试。"
 }
