@@ -1,13 +1,13 @@
 {
   "package": "cn.personal.wristlisten",
-  "versionCode": 28,
-  "versionName": "0.9.2",
+  "versionCode": 29,
+  "versionName": "0.9.3",
   "minSdk": 21,
-  "apkUrl": "https://mnijc19-netizen.github.io/wrist-listen-updates/apks/WristListen-0.9.2-M60T.apk",
+  "apkUrl": "https://mnijc19-netizen.github.io/wrist-listen-updates/apks/WristListen-0.9.3-M60T.apk",
   "apkFallbackUrls": [
-    "https://raw.githubusercontent.com/mnijc19-netizen/wrist-listen-updates/main/apks/WristListen-0.9.2-M60T.apk"
+    "https://raw.githubusercontent.com/mnijc19-netizen/wrist-listen-updates/main/apks/WristListen-0.9.3-M60T.apk"
   ],
-  "bytes": 180923,
-  "sha256": "7e7ede1236820f1adce20aa877cefc4fec3fe2ce87dae9525f845413d1c66c1a",
-  "notes": "QQ歌曲播放页新增账号“我喜欢”，支持加入或取消并读取QQ端确认；歌曲长按菜单也可操作。本地收藏独立保留。我喜欢列表进入后会刷新远端内容。更新改为固定下载站和备用线路。账号同步需要有效QQ登录。"
+  "bytes": 185019,
+  "sha256": "9d26808a4ef5f7014d9729ad87a2039db987907d5adaa87ff9189ef44fae90b6",
+  "notes": "修复快速切歌或暂停后旧网络连接占用线程、新播放排队的问题。QQ音乐与喜马拉雅已授权音频直链省去重复探测，失败仍保留原有验证与重试。收藏状态短期按账号缓存、重复读取合并，不再与页面浏览排队；收藏写入减少一次重复读取，继续等待服务器读回确认，失败不显示假成功。"
 }
