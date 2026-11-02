@@ -1,13 +1,13 @@
 {
   "package": "cn.personal.wristai",
-  "versionCode": 2,
-  "versionName": "0.2.0",
+  "versionCode": 3,
+  "versionName": "0.3.0",
   "minSdk": 26,
-  "apkUrl": "https://mnijc19-netizen.github.io/wrist-listen-updates/wrist-ai/apks/WristAsk-0.2.0-M60T.apk",
+  "apkUrl": "https://mnijc19-netizen.github.io/wrist-listen-updates/wrist-ai/apks/WristAsk-0.3.0-M60T.apk",
   "apkFallbackUrls": [
-    "https://raw.githubusercontent.com/mnijc19-netizen/wrist-listen-updates/main/wrist-ai/apks/WristAsk-0.2.0-M60T.apk"
+    "https://raw.githubusercontent.com/mnijc19-netizen/wrist-listen-updates/main/wrist-ai/apks/WristAsk-0.3.0-M60T.apk"
   ],
   "bytes": 82388,
-  "sha256": "6545a85ed8272a518937608a4ae13e56241c152ea1bdc596e0a7ef2f839966d3",
-  "notes": "新增设置→检查更新，支持备用下载线路与大小、SHA256、包名、签名校验。修复模型页返回后的刷新、语音失败提示和最近对话展示，优化价格入口提示。OpenRouter与Vercel分别配置。0.1.0需手动覆盖安装本次新版，以后可在应用内更新。"
+  "sha256": "3c7e87e5f3e0f398dee78dcc501c1cc4924b71032af05bd0547f0573418c9268",
+  "notes": "回答改为纯文字，移除自动朗读与语音生成流程，旧设置也不会触发语音合成。保留语音输入，优化录音快速停止、重录与异常清理。连接失败或回答中断时保留问题和文字，可手动重试原模型或修改问题；不自动重复收费请求。优化输入草稿、小屏键盘与模型选择。"
 }
