@@ -1,10 +1,13 @@
 {
   "package": "cn.personal.wristlisten",
-  "versionCode": 17,
-  "versionName": "0.5.5",
+  "versionCode": 28,
+  "versionName": "0.9.2",
   "minSdk": 21,
-  "apkUrl": "https://raw.githubusercontent.com/mnijc19-netizen/wrist-listen-updates/main/apks/WristListen-0.5.5-M60T.apk",
-  "bytes": 94829,
-  "sha256": "44dc3878b276af9290fe5d59f390ac1cd1c5356209afed63db306af944993436",
-  "notes": "增加可直接切换普通省电的入口（需系统授权，否则打开系统设置）；电池页明确区分全机可用运存、腕听占用与剩余电量计读数。M60T 已完成连续省电开关和两分钟息屏音频测试。B站音频、公开播客、电台与本地导入功能保留；YouTube、第三方账号播放及语音助手仍以实机验证结果为准。"
+  "apkUrl": "https://mnijc19-netizen.github.io/wrist-listen-updates/apks/WristListen-0.9.2-M60T.apk",
+  "apkFallbackUrls": [
+    "https://raw.githubusercontent.com/mnijc19-netizen/wrist-listen-updates/main/apks/WristListen-0.9.2-M60T.apk"
+  ],
+  "bytes": 180923,
+  "sha256": "7e7ede1236820f1adce20aa877cefc4fec3fe2ce87dae9525f845413d1c66c1a",
+  "notes": "QQ歌曲播放页新增账号“我喜欢”，支持加入或取消并读取QQ端确认；歌曲长按菜单也可操作。本地收藏独立保留。我喜欢列表进入后会刷新远端内容。更新改为固定下载站和备用线路。账号同步需要有效QQ登录。"
 }
