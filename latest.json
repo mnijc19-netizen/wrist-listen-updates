@@ -1,13 +1,13 @@
 {
   "package": "cn.personal.wristlisten",
-  "versionCode": 29,
-  "versionName": "0.9.3",
+  "versionCode": 30,
+  "versionName": "0.9.4",
   "minSdk": 21,
-  "apkUrl": "https://mnijc19-netizen.github.io/wrist-listen-updates/apks/WristListen-0.9.3-M60T.apk",
+  "apkUrl": "https://mnijc19-netizen.github.io/wrist-listen-updates/apks/WristListen-0.9.4-M60T.apk",
   "apkFallbackUrls": [
-    "https://raw.githubusercontent.com/mnijc19-netizen/wrist-listen-updates/main/apks/WristListen-0.9.3-M60T.apk"
+    "https://raw.githubusercontent.com/mnijc19-netizen/wrist-listen-updates/main/apks/WristListen-0.9.4-M60T.apk"
   ],
   "bytes": 185019,
-  "sha256": "9d26808a4ef5f7014d9729ad87a2039db987907d5adaa87ff9189ef44fae90b6",
-  "notes": "修复快速切歌或暂停后旧网络连接占用线程、新播放排队的问题。QQ音乐与喜马拉雅已授权音频直链省去重复探测，失败仍保留原有验证与重试。收藏状态短期按账号缓存、重复读取合并，不再与页面浏览排队；收藏写入减少一次重复读取，继续等待服务器读回确认，失败不显示假成功。"
+  "sha256": "d17adfdb453ce6b6a5921c329302ad7a3bd03360bfd9949df452b2437d84155c",
+  "notes": "增加按账号隔离的30秒播放地址短缓存，重复开播减少相同授权与连接等待。临近结束时只提前准备下一集授权地址，不预下载音频；暂停、切歌、队列变化和当前音频缓冲时会取消预取，优先当前收听。失败重试强制刷新地址，账号切换不会复用旧账号缓存。"
 }
