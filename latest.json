@@ -1,14 +1,14 @@
 {
   "package": "cn.personal.wristlisten",
-  "versionCode": 38,
-  "versionName": "1.3.0",
+  "versionCode": 39,
+  "versionName": "1.3.1",
   "minSdk": 21,
-  "apkUrl": "https://mnijc19-netizen.github.io/wrist-listen-updates/apks/WristListen-1.3.0-M60T.apk",
+  "apkUrl": "https://mnijc19-netizen.github.io/wrist-listen-updates/apks/WristListen-1.3.1-M60T.apk",
   "apkFallbackUrls": [
-    "https://raw.githubusercontent.com/mnijc19-netizen/wrist-listen-updates/main/apks/WristListen-1.3.0-M60T.apk",
-    "https://github.com/mnijc19-netizen/wrist-listen-updates/releases/download/v1.3.0/WristListen-1.3.0-M60T.apk"
+    "https://raw.githubusercontent.com/mnijc19-netizen/wrist-listen-updates/main/apks/WristListen-1.3.1-M60T.apk",
+    "https://github.com/mnijc19-netizen/wrist-listen-updates/releases/download/v1.3.1/WristListen-1.3.1-M60T.apk"
   ],
   "bytes": 283323,
-  "sha256": "58fc603a20381dfc1943094b38805bfa293965f6eeffce6324beb18185795123",
-  "notes": "QQ音乐/喜马拉雅界面整理：搜索和本人列表优先，歌曲与专辑显示明确管理入口。喜马拉雅账号订阅新增查询、增加与确认取消，和腕听本地收藏分开；写后回读，不自动重试。接入小雅官方推荐、最近收听和6类榜单，需要另配小雅Key。AI同步区分云端/本地订阅与官方发现。Key和真实账号写入待本人按需验收。"
+  "sha256": "1d26367ad2511cd2d7639af20add07fc68dba4937a743ed4dc6b423cbf4fa46a",
+  "notes": "修复手表小屏上小雅 Key 录入框可能被长说明挤出的问题。"
 }
