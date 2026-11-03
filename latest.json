@@ -1,14 +1,14 @@
 {
   "package": "cn.personal.wristlisten",
-  "versionCode": 33,
-  "versionName": "1.1.0",
+  "versionCode": 34,
+  "versionName": "1.2.0",
   "minSdk": 21,
-  "apkUrl": "https://mnijc19-netizen.github.io/wrist-listen-updates/apks/WristListen-1.1.0-M60T.apk",
+  "apkUrl": "https://mnijc19-netizen.github.io/wrist-listen-updates/apks/WristListen-1.2.0-M60T.apk",
   "apkFallbackUrls": [
-    "https://raw.githubusercontent.com/mnijc19-netizen/wrist-listen-updates/main/apks/WristListen-1.1.0-M60T.apk",
-    "https://github.com/mnijc19-netizen/wrist-listen-updates/releases/download/v1.1.0/WristListen-1.1.0-M60T.apk"
+    "https://raw.githubusercontent.com/mnijc19-netizen/wrist-listen-updates/main/apks/WristListen-1.2.0-M60T.apk",
+    "https://github.com/mnijc19-netizen/wrist-listen-updates/releases/download/v1.2.0/WristListen-1.2.0-M60T.apk"
   ],
-  "bytes": 250555,
-  "sha256": "4196aca5593ff9b03af5f40b187a9ce4d301dfa5d5a7009b74c2f275817902fa",
-  "notes": "重排首页/发现/我的，合并重复播放器入口，电台收进发现，订阅去杂项；离线区分APP下载与本地导入。AI扩大阅读区、旧记录和执行过程折叠、保留失败提示。新增主动短录音经OpenRouter转文字后备，先确认再发送；需麦克风权限和API Key，按量计费。真实语音识别待本人主动说话验收。覆盖安装保留资料。"
+  "bytes": 258747,
+  "sha256": "28b9600b9adadc97be992eaa716aa7dd685fa919135478ba1e748236acd94d99",
+  "notes": "优化AI实际点播判断与回答：MJ简称/明确口语可本机直达；安全记住本人已选歌手，完整匹配旧队列可迁移选择，不再反复确认。同一需求更新一张任务卡，详情紧凑，真实播放/连接/错误可见。语音改流式原音上传、仅裁数字零尾静音，显示阶段和总耗时；不会自动录音、发送或重试。平台自动路由真实含义在设置说明。覆盖安装保留资料。"
 }
