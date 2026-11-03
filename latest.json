@@ -1,14 +1,14 @@
 {
   "package": "cn.personal.wristlisten",
-  "versionCode": 32,
-  "versionName": "1.0.1",
+  "versionCode": 33,
+  "versionName": "1.1.0",
   "minSdk": 21,
-  "apkUrl": "https://mnijc19-netizen.github.io/wrist-listen-updates/apks/WristListen-1.0.1-M60T.apk",
+  "apkUrl": "https://mnijc19-netizen.github.io/wrist-listen-updates/apks/WristListen-1.1.0-M60T.apk",
   "apkFallbackUrls": [
-    "https://raw.githubusercontent.com/mnijc19-netizen/wrist-listen-updates/main/apks/WristListen-1.0.1-M60T.apk",
-    "https://github.com/mnijc19-netizen/wrist-listen-updates/releases/download/v1.0.1/WristListen-1.0.1-M60T.apk"
+    "https://raw.githubusercontent.com/mnijc19-netizen/wrist-listen-updates/main/apks/WristListen-1.1.0-M60T.apk",
+    "https://github.com/mnijc19-netizen/wrist-listen-updates/releases/download/v1.1.0/WristListen-1.1.0-M60T.apk"
   ],
-  "bytes": 238267,
-  "sha256": "bc63ffedd2f6faa9e828f2ec6ddf4a44e2466ce29724ca9a84116eb2cf93c1de",
-  "notes": "1.0体验修复：AI多版本候选不再被旧滚动和焦点带走；有声书保留带副标题的版本，避免同名搜索漏项；正在播放状态实时读取本机播放器；仅AI处理期间保持亮屏。继承OpenRouter点播、歌手随机、续听和定时。覆盖安装保留数据。"
+  "bytes": 250555,
+  "sha256": "4196aca5593ff9b03af5f40b187a9ce4d301dfa5d5a7009b74c2f275817902fa",
+  "notes": "重排首页/发现/我的，合并重复播放器入口，电台收进发现，订阅去杂项；离线区分APP下载与本地导入。AI扩大阅读区、旧记录和执行过程折叠、保留失败提示。新增主动短录音经OpenRouter转文字后备，先确认再发送；需麦克风权限和API Key，按量计费。真实语音识别待本人主动说话验收。覆盖安装保留资料。"
 }
