@@ -1,8 +1,8 @@
 # 腕听更新
 
-当前版本：1.2.2。
+当前版本：1.2.3。
 
-[下载APK](https://mnijc19-netizen.github.io/wrist-listen-updates/apks/WristListen-1.2.2-M60T.apk) · [备用下载](https://raw.githubusercontent.com/mnijc19-netizen/wrist-listen-updates/main/apks/WristListen-1.2.2-M60T.apk) · [全部下载入口](https://mnijc19-netizen.github.io/wrist-listen-updates/)
+[下载APK](https://mnijc19-netizen.github.io/wrist-listen-updates/apks/WristListen-1.2.3-M60T.apk) · [备用下载](https://raw.githubusercontent.com/mnijc19-netizen/wrist-listen-updates/main/apks/WristListen-1.2.3-M60T.apk) · [全部下载入口](https://mnijc19-netizen.github.io/wrist-listen-updates/)
 
 QQ歌曲打开播放页，点“加入QQ音乐我喜欢”。成功后再次点可取消；这会同步QQ账号，不等同于腕听本地收藏。会话过期需在账号设置重新登录。
 

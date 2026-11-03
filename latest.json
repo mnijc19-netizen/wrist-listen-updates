@@ -1,14 +1,14 @@
 {
   "package": "cn.personal.wristlisten",
-  "versionCode": 36,
-  "versionName": "1.2.2",
+  "versionCode": 37,
+  "versionName": "1.2.3",
   "minSdk": 21,
-  "apkUrl": "https://mnijc19-netizen.github.io/wrist-listen-updates/apks/WristListen-1.2.2-M60T.apk",
+  "apkUrl": "https://mnijc19-netizen.github.io/wrist-listen-updates/apks/WristListen-1.2.3-M60T.apk",
   "apkFallbackUrls": [
-    "https://raw.githubusercontent.com/mnijc19-netizen/wrist-listen-updates/main/apks/WristListen-1.2.2-M60T.apk",
-    "https://github.com/mnijc19-netizen/wrist-listen-updates/releases/download/v1.2.2/WristListen-1.2.2-M60T.apk"
+    "https://raw.githubusercontent.com/mnijc19-netizen/wrist-listen-updates/main/apks/WristListen-1.2.3-M60T.apk",
+    "https://github.com/mnijc19-netizen/wrist-listen-updates/releases/download/v1.2.3/WristListen-1.2.3-M60T.apk"
   ],
   "bytes": 266939,
-  "sha256": "9035b4bbf6c7a6877ad44d56c08a1660d5b65c30a8cd05b24b6cdddb93a6bffe",
-  "notes": "首页AI短按打开、长按直接录音，说完点完成后执行；取消、失败或离开不执行，聊天内语音仍先回填。明确歌手与歌名可本机严格匹配QQ目录，减少模型往返。录音期间尝试无Key提前建连，不保证固定提速。保留Qwen中文混读与原账号设置。"
+  "sha256": "77216d4fdfa53f9aa52669655192b567188f22514ee2f80445615cdba8d8cd13",
+  "notes": "修复AI查看歌手页却自动播放：查看页面与播放分别绑定，候选明确标注查看或播放。浏览默认不改队列、不启动播放器，模型误调播放也会拦截。独立浏览与内容页能力，纯查看不再等待额外模型回复，账号权限和过期引用仍校验。保留首页长按语音点播。"
 }
