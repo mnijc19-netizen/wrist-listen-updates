@@ -1,14 +1,14 @@
 {
   "package": "cn.personal.wristlisten",
-  "versionCode": 35,
-  "versionName": "1.2.1",
+  "versionCode": 36,
+  "versionName": "1.2.2",
   "minSdk": 21,
-  "apkUrl": "https://mnijc19-netizen.github.io/wrist-listen-updates/apks/WristListen-1.2.1-M60T.apk",
+  "apkUrl": "https://mnijc19-netizen.github.io/wrist-listen-updates/apks/WristListen-1.2.2-M60T.apk",
   "apkFallbackUrls": [
-    "https://raw.githubusercontent.com/mnijc19-netizen/wrist-listen-updates/main/apks/WristListen-1.2.1-M60T.apk",
-    "https://github.com/mnijc19-netizen/wrist-listen-updates/releases/download/v1.2.1/WristListen-1.2.1-M60T.apk"
+    "https://raw.githubusercontent.com/mnijc19-netizen/wrist-listen-updates/main/apks/WristListen-1.2.2-M60T.apk",
+    "https://github.com/mnijc19-netizen/wrist-listen-updates/releases/download/v1.2.2/WristListen-1.2.2-M60T.apk"
   ],
-  "bytes": 262843,
-  "sha256": "7a1787a2764647ef64f7210a652cf9d2626ed8fdcfbeba23e65355621dabe1ec",
-  "notes": "语音路径调整：默认Qwen3-ASR中文混读、自动语言判断，独立选择Whisper/GPT-Transcribe备用，不改变聊天模型。补充实际输入路由/音量诊断，只存指标不存录音或识别文字。三模型同一合成样本均可用，但不能代表真人准确率；本机真人语音仍需确认，不承诺固定提速。覆盖安装保留资料。"
+  "bytes": 266939,
+  "sha256": "9035b4bbf6c7a6877ad44d56c08a1660d5b65c30a8cd05b24b6cdddb93a6bffe",
+  "notes": "首页AI短按打开、长按直接录音，说完点完成后执行；取消、失败或离开不执行，聊天内语音仍先回填。明确歌手与歌名可本机严格匹配QQ目录，减少模型往返。录音期间尝试无Key提前建连，不保证固定提速。保留Qwen中文混读与原账号设置。"
 }
