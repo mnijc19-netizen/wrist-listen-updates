@@ -1,14 +1,14 @@
 {
   "package": "cn.personal.wristlisten",
-  "versionCode": 37,
-  "versionName": "1.2.3",
+  "versionCode": 38,
+  "versionName": "1.3.0",
   "minSdk": 21,
-  "apkUrl": "https://mnijc19-netizen.github.io/wrist-listen-updates/apks/WristListen-1.2.3-M60T.apk",
+  "apkUrl": "https://mnijc19-netizen.github.io/wrist-listen-updates/apks/WristListen-1.3.0-M60T.apk",
   "apkFallbackUrls": [
-    "https://raw.githubusercontent.com/mnijc19-netizen/wrist-listen-updates/main/apks/WristListen-1.2.3-M60T.apk",
-    "https://github.com/mnijc19-netizen/wrist-listen-updates/releases/download/v1.2.3/WristListen-1.2.3-M60T.apk"
+    "https://raw.githubusercontent.com/mnijc19-netizen/wrist-listen-updates/main/apks/WristListen-1.3.0-M60T.apk",
+    "https://github.com/mnijc19-netizen/wrist-listen-updates/releases/download/v1.3.0/WristListen-1.3.0-M60T.apk"
   ],
-  "bytes": 266939,
-  "sha256": "77216d4fdfa53f9aa52669655192b567188f22514ee2f80445615cdba8d8cd13",
-  "notes": "修复AI查看歌手页却自动播放：查看页面与播放分别绑定，候选明确标注查看或播放。浏览默认不改队列、不启动播放器，模型误调播放也会拦截。独立浏览与内容页能力，纯查看不再等待额外模型回复，账号权限和过期引用仍校验。保留首页长按语音点播。"
+  "bytes": 283323,
+  "sha256": "58fc603a20381dfc1943094b38805bfa293965f6eeffce6324beb18185795123",
+  "notes": "QQ音乐/喜马拉雅界面整理：搜索和本人列表优先，歌曲与专辑显示明确管理入口。喜马拉雅账号订阅新增查询、增加与确认取消，和腕听本地收藏分开；写后回读，不自动重试。接入小雅官方推荐、最近收听和6类榜单，需要另配小雅Key。AI同步区分云端/本地订阅与官方发现。Key和真实账号写入待本人按需验收。"
 }
