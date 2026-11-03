@@ -1,13 +1,14 @@
 {
   "package": "cn.personal.wristlisten",
-  "versionCode": 30,
-  "versionName": "0.9.4",
+  "versionCode": 31,
+  "versionName": "1.0.0",
   "minSdk": 21,
-  "apkUrl": "https://mnijc19-netizen.github.io/wrist-listen-updates/apks/WristListen-0.9.4-M60T.apk",
+  "apkUrl": "https://mnijc19-netizen.github.io/wrist-listen-updates/apks/WristListen-1.0.0-M60T.apk",
   "apkFallbackUrls": [
-    "https://raw.githubusercontent.com/mnijc19-netizen/wrist-listen-updates/main/apks/WristListen-0.9.4-M60T.apk"
+    "https://raw.githubusercontent.com/mnijc19-netizen/wrist-listen-updates/main/apks/WristListen-1.0.0-M60T.apk",
+    "https://github.com/mnijc19-netizen/wrist-listen-updates/releases/download/v1.0.0/WristListen-1.0.0-M60T.apk"
   ],
-  "bytes": 185019,
-  "sha256": "d17adfdb453ce6b6a5921c329302ad7a3bd03360bfd9949df452b2437d84155c",
-  "notes": "增加按账号隔离的30秒播放地址短缓存，重复开播减少相同授权与连接等待。临近结束时只提前准备下一集授权地址，不预下载音频；暂停、切歌、队列变化和当前音频缓冲时会取消预取，优先当前收听。失败重试强制刷新地址，账号切换不会复用旧账号缓存。"
+  "bytes": 238267,
+  "sha256": "b1a71e3f889b8e657965c36f6da67dc2ee6a3c43c2547ef7c74a17ac09f00d9c",
+  "notes": "新增OpenRouter原生AI点播：歌手随机、有声书续听、多版本选择后继续定时等复合任务。优化首页、播放器、小屏输入、弱网恢复与并发保存。API Key在本机加密保存，默认文字回答。五轮软件验证通过；本人账号与真实模型、M60T长时间蓝牙/息屏验收仍在进行。请覆盖安装保留账号、订阅与下载。"
 }
