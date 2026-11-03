@@ -1,14 +1,14 @@
 {
   "package": "cn.personal.wristlisten",
-  "versionCode": 34,
-  "versionName": "1.2.0",
+  "versionCode": 35,
+  "versionName": "1.2.1",
   "minSdk": 21,
-  "apkUrl": "https://mnijc19-netizen.github.io/wrist-listen-updates/apks/WristListen-1.2.0-M60T.apk",
+  "apkUrl": "https://mnijc19-netizen.github.io/wrist-listen-updates/apks/WristListen-1.2.1-M60T.apk",
   "apkFallbackUrls": [
-    "https://raw.githubusercontent.com/mnijc19-netizen/wrist-listen-updates/main/apks/WristListen-1.2.0-M60T.apk",
-    "https://github.com/mnijc19-netizen/wrist-listen-updates/releases/download/v1.2.0/WristListen-1.2.0-M60T.apk"
+    "https://raw.githubusercontent.com/mnijc19-netizen/wrist-listen-updates/main/apks/WristListen-1.2.1-M60T.apk",
+    "https://github.com/mnijc19-netizen/wrist-listen-updates/releases/download/v1.2.1/WristListen-1.2.1-M60T.apk"
   ],
-  "bytes": 258747,
-  "sha256": "28b9600b9adadc97be992eaa716aa7dd685fa919135478ba1e748236acd94d99",
-  "notes": "优化AI实际点播判断与回答：MJ简称/明确口语可本机直达；安全记住本人已选歌手，完整匹配旧队列可迁移选择，不再反复确认。同一需求更新一张任务卡，详情紧凑，真实播放/连接/错误可见。语音改流式原音上传、仅裁数字零尾静音，显示阶段和总耗时；不会自动录音、发送或重试。平台自动路由真实含义在设置说明。覆盖安装保留资料。"
+  "bytes": 262843,
+  "sha256": "7a1787a2764647ef64f7210a652cf9d2626ed8fdcfbeba23e65355621dabe1ec",
+  "notes": "语音路径调整：默认Qwen3-ASR中文混读、自动语言判断，独立选择Whisper/GPT-Transcribe备用，不改变聊天模型。补充实际输入路由/音量诊断，只存指标不存录音或识别文字。三模型同一合成样本均可用，但不能代表真人准确率；本机真人语音仍需确认，不承诺固定提速。覆盖安装保留资料。"
 }
