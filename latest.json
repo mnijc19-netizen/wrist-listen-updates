@@ -1,14 +1,15 @@
 {
   "package": "cn.personal.wristlisten",
-  "versionCode": 44,
-  "versionName": "1.4.2",
+  "versionCode": 49,
+  "versionName": "1.5.0",
   "minSdk": 21,
-  "apkUrl": "https://mnijc19-netizen.github.io/wrist-listen-updates/apks/WristListen-1.4.2-M60T.apk",
+  "apkUrl": "https://mnijc19-netizen.github.io/wrist-listen-updates/apks/WristListen-1.5.0-M60T.apk",
   "apkFallbackUrls": [
-    "https://raw.githubusercontent.com/mnijc19-netizen/wrist-listen-updates/main/apks/WristListen-1.4.2-M60T.apk",
-    "https://github.com/mnijc19-netizen/wrist-listen-updates/releases/download/v1.4.2/WristListen-1.4.2-M60T.apk"
+    "https://cdn.jsdelivr.net/gh/mnijc19-netizen/wrist-listen-updates@v1.5.0/apks/WristListen-1.5.0-M60T.apk",
+    "https://raw.githubusercontent.com/mnijc19-netizen/wrist-listen-updates/main/apks/WristListen-1.5.0-M60T.apk",
+    "https://github.com/mnijc19-netizen/wrist-listen-updates/releases/download/v1.5.0/WristListen-1.5.0-M60T.apk"
   ],
-  "bytes": 299707,
-  "sha256": "89445c887648f226d872151bbac27d576a496991890591e11ac5ced7cbeebe13",
-  "notes": "语音区与文字聊天分开，按下即开麦、松开识别、上滑取消，无需等待长按。重做语音浮层，独立识别队列与低开销动效。"
+  "bytes": 328379,
+  "sha256": "7ad51276d15bc5077cb40de1fd74d08a738331ef99c7705e5186e9f8763d451d",
+  "notes": "修复QQ扫码网页会话保存，账号收藏需重新QQ扫码补充授权；歌曲点选从头，听书保留进度。优化首屏列表、搜索缓存、AI排版、更新取消和息屏准备保护。"
 }
