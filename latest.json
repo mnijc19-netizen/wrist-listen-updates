@@ -1,14 +1,14 @@
 {
   "package": "cn.personal.wristlisten",
-  "versionCode": 41,
-  "versionName": "1.3.3",
+  "versionCode": 43,
+  "versionName": "1.4.1",
   "minSdk": 21,
-  "apkUrl": "https://mnijc19-netizen.github.io/wrist-listen-updates/apks/WristListen-1.3.3-M60T.apk",
+  "apkUrl": "https://mnijc19-netizen.github.io/wrist-listen-updates/apks/WristListen-1.4.1-M60T.apk",
   "apkFallbackUrls": [
-    "https://raw.githubusercontent.com/mnijc19-netizen/wrist-listen-updates/main/apks/WristListen-1.3.3-M60T.apk",
-    "https://github.com/mnijc19-netizen/wrist-listen-updates/releases/download/v1.3.3/WristListen-1.3.3-M60T.apk"
+    "https://raw.githubusercontent.com/mnijc19-netizen/wrist-listen-updates/main/apks/WristListen-1.4.1-M60T.apk",
+    "https://github.com/mnijc19-netizen/wrist-listen-updates/releases/download/v1.4.1/WristListen-1.4.1-M60T.apk"
   ],
-  "bytes": 287419,
-  "sha256": "0730e350e4d2d15504e375f580d0068ab83a14306b24eff2c2b79342d9cd4b9b",
-  "notes": "QQ音乐首页新增我的收藏直达，歌单单独展示。收藏页改为随机播放、顺序播放和歌曲列表；新鲜收藏状态复用，减少重复请求。"
+  "bytes": 299707,
+  "sha256": "def796db2b3b418dba237a8b7800d3ccec09cb389c6395602fdee2c417322106",
+  "notes": "语音界面重做：按住录音、松开识别、上滑取消。轻量波形与连续状态动效，独立语音队列，缩短按住判定并优化录音交接。"
 }

@@ -1,8 +1,10 @@
 # 腕听更新
 
-当前版本：1.3.3。
+当前版本：1.4.1。
 
-[下载APK](https://mnijc19-netizen.github.io/wrist-listen-updates/apks/WristListen-1.3.3-M60T.apk) · [备用下载](https://raw.githubusercontent.com/mnijc19-netizen/wrist-listen-updates/main/apks/WristListen-1.3.3-M60T.apk) · [全部下载入口](https://mnijc19-netizen.github.io/wrist-listen-updates/)
+[下载APK](https://mnijc19-netizen.github.io/wrist-listen-updates/apks/WristListen-1.4.1-M60T.apk) · [备用下载](https://raw.githubusercontent.com/mnijc19-netizen/wrist-listen-updates/main/apks/WristListen-1.4.1-M60T.apk) · [全部下载入口](https://mnijc19-netizen.github.io/wrist-listen-updates/)
+
+首页AI按住说话，松开识别后执行，上滑取消。聊天页语音识别后可编辑再发送，也可轻点开始、再点麦克风完成。录音仅在明确手势后启动，离开页面会取消；识别时长受模型和网络影响。
 
 QQ首页可直接进入“我的收藏”，喜欢的歌曲与自建及收藏歌单分开。收藏页可随机或顺序播放。
 
